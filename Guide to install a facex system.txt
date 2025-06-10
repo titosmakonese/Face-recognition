@@ -1,0 +1,74 @@
+To install a facex system using the specified hardware and software, follow these stages:
+
+Stage 1: Set Up Your Development Environment
+Install Python:
+
+Download the latest version of Python from the official website.
+Ensure that you check the box to add Python to your PATH during installation.
+Install Flask:
+
+Open a terminal or command prompt.
+Run the command:
+pip install Flask
+
+Set Up PyCharm:
+
+Download and install PyCharm.
+Create a new project for your facex system.
+
+Stage 2: Install Required Libraries
+Install OpenCV:
+
+In the terminal, run:
+
+pip install opencv-python
+Install face-recognition Library:
+
+Run the following command:
+
+pip install face-recognition
+Install Additional Libraries (if needed):
+
+For image processing and handling:
+
+pip install numpy Pillow
+
+Stage 3: Create the Project Structure
+Set Up File Structure:
+Organize your project with the following structure:
+
+Copy
+/your_project
+├── app.py
+├── static
+│   └── css
+│       └── styles.css
+├── templates
+│   └── index.html
+└── uploads
+
+Stage 4: Develop Your Application
+Create HTML Files:
+
+In templates/index.html, create a basic HTML structure to upload images.
+Write Flask Code:
+
+In app.py, set up routes for file upload and face recognition functionality.
+Style with CSS:
+
+Use static/css/styles.css to style your application.
+
+Stage 5: Testing
+Run the Flask Application:
+
+In the terminal, navigate to your project directory and run:
+
+python app.py
+Access the Application:
+
+Open a web browser and go to http://127.0.0.1:222.
+                             http://10.2.127.30.222
+Test Facex:
+
+Upload images and check the functionality.
+
